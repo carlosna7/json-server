@@ -1,9 +1,56 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "projects": [
+    {
+      "name": "p5",
+      "budget": "5000",
+      "category": {
+        "id": "1",
+        "name": "Infra"
+      },
+      "costs": 0,
+      "services": [],
+      "history": [
+        {
+          "nome": "p5",
+          "valor": "500"
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "projeto 7",
+      "history": [
+        {
+          "nome": "projeto 7",
+          "valor": "7000"
+        }
+      ],
+      "budget": "7000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "costs": 0,
+      "services": [],
+      "id": 7
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "categories": [
+    {
+      "id": 1,
+      "name": "Infra"
+    },
+    {
+      "id": 2,
+      "name": "Desenvolvimento"
+    },
+    {
+      "id": 3,
+      "name": "Design"
+    },
+    {
+      "id": 4,
+      "name": "Planejamento"
+    }
+  ]
 }
